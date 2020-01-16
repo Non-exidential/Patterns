@@ -1,0 +1,8 @@
+package structure_patterns_.bridge;
+
+public class JavaDeveloper implements Developer  {
+    @Override
+    public void writeCode() {
+        System.out.println("Java developer writes Java Code");
+    }
+}
